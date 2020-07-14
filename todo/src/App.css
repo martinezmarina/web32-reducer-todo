@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body {
+  font-family: 'Indie Flower', cursive;
+  background: linear-gradient(to bottom right, ivory, darkslategray);
+  width: 80vw;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 10%;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  background-color: ivory;
+  border: 2px solid oldlace;
+  border-radius: 30px;
+  margin: 3%;
+}
+form{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.task.completed {
+  text-decoration: line-through;
+}
+
+
+input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid oldlace;
+  margin: 0 20%;
+}
+
+button {
+  border:1px solid darkslategray;
+  border-radius: 6px;
+  width: 200px;
+  height: 2rem;
+  background-color: darkslategray;
+  color:lavender;
+  font-family: 'Indie Flower', cursive;
+}
+
+button:hover {
+  background-color: lavender;
+  border: 1px solid lavender;
+  color: darkslategray;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.todo-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.todo-list .task{
+  background-color: lavender;
+  border-radius: 1rem;
+  width: 50vw;
+  text-align: center;
+  margin: 1rem;
+  border: 2px solid mediumorchid;
+}
+
+.todo-list .task p {
+  padding: 0.5rem;
+}
+
+.todo-list {
+  width: 80%;
+  background-color:ivory;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+  /* border: 2px solid whitesmoke; */
+}
