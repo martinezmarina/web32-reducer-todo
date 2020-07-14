@@ -9,7 +9,7 @@ function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const toggleTask = taskID => {
-    dispatch({ type: 'COMPLETED', payload: taskID});
+    dispatch({ type: 'MARK_COMPLETED', payload: taskID});
   };
   const clearCompleted = (e) => {
     dispatch({ type: 'CLEAR_COMPLETED'});

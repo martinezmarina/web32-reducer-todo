@@ -10,7 +10,7 @@ export const reducer = (state, action) => {
                     id: new Date()     
                 }
             ];
-        case 'COMPLETED':
+        case 'MARK_COMPLETED':
             return (
                 state.map(todo => {
                     if (todo.id === action.payload) {
